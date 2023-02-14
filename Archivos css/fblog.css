@@ -1,0 +1,84 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    width: 1100px;
+    background-color: #000000;
+}
+#blogtitulo {
+    font-size: 1.5rem;
+    width: 50%;
+    float: right;
+    color: rgb(255,255,255);
+    text-align: center;
+    position: sticky;
+    top:25px;
+    
+}
+
+#blogheader {
+    position: fixed;
+    right: 0.2rem;
+    width: 50%;
+    opacity: 0.3;
+}
+
+.contenido {
+    position: relative;
+    top: 10rem;
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+ul {
+    width: 420px;
+    margin: 0 auto;
+}
+.post {
+    background-color: #d6d6d6;
+    opacity: 1;
+    margin: 0 auto;
+    color:#808080;
+    width: 460px;
+    border-style:solid;
+    border-color: #808080;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+li {
+    margin : 0 auto;
+    width: 380px;
+    color: crimson;
+   /*  border-style: dotted;
+    border-color: crimson;
+    border-radius: 2px; */
+    text-align: left;
+    list-style: none;
+    text-decoration: underline;
+}
+ul p {
+    margin:0 auto;
+    width: 380px;
+    text-align: justify;
+    color: #808080;
+    /* border: solid;
+    border-radius: 2px; */
+    background-color: #d6d6d6;
+    /* padding-bottom: 40px;
+    padding-top: 20px; */
+}
+
+.fondo {
+    margin: 0 auto;
+   /*  background-color: rgba(3, 15, 121, 0);
+    background-image: url("imgs/bloghheader.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+    margin: auto;
+    
+    
+}

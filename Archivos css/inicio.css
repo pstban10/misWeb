@@ -1,0 +1,171 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+width: 1100px;
+background-color: #000000;
+}
+#BH {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+width: 100%;
+background-color: #000000;
+}
+.encabezado1 {
+
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    text-decoration: underline;
+    text-shadow: 7px 9px 9px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    text-align: center; 
+    display: inline;
+}
+.encabezado {
+    color: rgb(255,255,255);
+    font-size: 2rem;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+#botones {
+    width: 45%;
+    height: 12rem;
+    position: relative;
+    top: 3rem;
+    float: right;
+    right: 1rem;
+    border: double;
+    border-color: #6f40ef;
+    padding: 9px;
+    border-radius: 15px;
+}
+.boton {
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    font-family: unset;
+    border: 2px solid rgb(111 64 239);
+    padding: 10px;
+    transition-duration: 0.4s;
+    border-radius: 9px;
+}
+.boton:hover{
+    background-color: #9fc0a0;
+    color: rgb(0, 0, 0);
+}
+.left {
+   float: left;
+    display: inline;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+ article {
+    padding: 20px;
+    border: double;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: relative;
+    float: right;
+ }
+ article.hover {
+    background-color: antiquewhite ;
+ }
+ #rg {
+    float: right;
+ }
+ #is {
+    float: right;
+ }
+.right0 {
+        position: absolute;
+        right: 15px;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+
+}
+.right1 {
+    position: absolute;
+    right: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    bottom: 15px;
+
+}
+    
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    right: 50%;
+    width: 150px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;;
+
+}
+.registro {
+    float: left;
+    display: inline;
+    width: 380px;
+    margin-top: 3rem;
+}
+
+#registrarse {
+    width: 1000px;
+}
+.logoregistro {
+    display: inline;
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+
+input:hover {
+    background-color: #2ff;
+}
+
+/* aqui está el estilo de la paginade inicio de sesion */
+
+#ISes {
+    width: 900px;   
+}
+#BDIS{
+    margin-top: 90px;
+}
+
+.Isesion {/* este es el logo que tiene que 
+    estar detras del formulario para 
+    iniciar la sesion */
+
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-image: url("imgs/logo.png");
+    background-size: contain;
+    /* opacity: 0.5; */
+    margin: 0  auto; 
+}
+.encabezadois {
+    color: rgb(255,255,255);
+    font-size: 2rem;
+    width: 600px;
+
+   /* este es el formulario para ingresar los datos
+    de inicio de sesion */
+}
+.formIs {
+    top: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.formIs.hover {
+    background-color: rgb(124, 126, 126);
+}
+
